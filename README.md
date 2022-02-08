@@ -1,4 +1,5 @@
 # ArrayOfObjects
+
 Program for importing, parsing, reading, and searching for college sections utilizing multiple classes approach.
 
 ### Features
@@ -10,3 +11,7 @@ Program for importing, parsing, reading, and searching for college sections util
 - **`CourseList:`** The course list class serves to store sections (as `Section` objects) in an array and search through that array. First, this class features an array of type `Section` that stores the sections. There is also a count property that tracks the number of sections that are fed into the array.
 
   There are also two methods. `loadSections()` imports a given .txt file, parses the information, formats it, then prints it out. The second method, `findCrn()`, uses a simple linear search algorithm to loop through each Section object in the array and match that `Section` CRN property to a given user's CRN input they desire to see.
+
+---
+
+*CSCI 112 001 15A SP22 - COMPUTER SCIENCE II*
